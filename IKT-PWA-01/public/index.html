@@ -10,6 +10,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link rel="stylesheet" href="/src/css/app.css">
 <link rel="stylesheet" href="/src/css/feed.css">
+  <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
 </nav>
 
 
-  <div id="create-post">
+<div id="create-post">
     <form>
       <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="title">
@@ -65,17 +66,44 @@
     <h5 class="text-center mdl-color-text--primary">HTW-Insta</h5>
     <div id="shared-moments"></div>
   </div>
-  <div class="floating-button">
-    <button type="button" class="btn btn-danger" style="border-radius: 50%; text-align: center">+</button>
-    </button>
-  </div>
-
+<div class="floating-button">
+  <button class="btn btn-danger rounded-circle add-button" id="share-image-button">
+    <i style="font-style: normal">+</i>
+  </button>
+</div>
 </div>
 
-<script defer src="/src/js/material.min.js"></script>
 <script src="/src/js/app.js"></script>
 <script src="/src/js/feed.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log(reg))
+            .catch(err => console.log(err));
+  }
+
+  const addBtn = document.getElementById('share-image-button');
+  let deferredPrompt;
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+  });
+
+  addBtn.addEventListener('click', () => {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choice) => {
+      if (choice.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+      } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+  });
+
+</script>
 </body>
 </html>
