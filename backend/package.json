@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Rest_server für posts-datenbank",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "watch": "nodemon ./server.js",
+    "test": "mocha ./tests.js"
+  },
+  "keywords": [
+    "IKT",
+    "PWA",
+    "REST-API",
+    "Backend",
+    "posts"
+  ],
+  "author": "Hai Linh Bui",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7"
+  }
+}

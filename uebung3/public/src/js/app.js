@@ -4,23 +4,33 @@ var output = document.querySelector('#output');
 button.addEventListener('click', function() {
     // Erzeugen Sie sich hier ein Promise-Objekt und fuegen die 
     // setTimeout-Funktion in die Funktion, die dem Konstruktor uebergeben wird
-    // let p1 = new Promise((resolve, reject) => {
-    //     setTimeout(() => {
-    //         resolve('https://httpbin.org/ip');
-    //     }, 1000);
-    // });
-    //
-    // p1
-    //     .then(
-    //         value => {
-    //             console.log(value);
-    //         }
-    //     );
-    //
-    //
-    // setTimeout(function () { // <- das hier soll in das Promise-Objekt
-    //     // "Resolve" diese Url: https://httpbin.org/ip
-    // }, 1000);
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('https://httpbin.org/ip');
+        }, 1000);
+    })
+        .then
+        (
+            url =>{
+                console.log(url)
+                return fetch(url);
+            }
+        )
+        .then
+    (
+        respone => {
+            console.log('respone', respone);
+            return respone.json()
+        }
+    )
+        .then(
+            data => {
+                output.textContent = data.origin;
+            }
+        )
+        .catch(
+
+        )
 
     // Teil 1:
 
@@ -36,21 +46,6 @@ button.addEventListener('click', function() {
     // Behandeln Sie diese JSON-Daten, indem Sie den Wert von "origin" in das 
     // "output"-Element schreiben (output.textContent =  data.origin;)
 
-    // fetch('https://httpbin.org/ip')
-    //     .then(
-    //         response => response.json()
-    //     )
-    //     .then(
-    //         data => {
-    //             console.log(data);
-    //             //output.textContent = data.origin;
-    //         }
-    //     )
-    //     .catch(
-    //         err => {
-    //             console.log(err);
-    //         }
-    //     );
 
     // Teil 2:
 

@@ -1,0 +1,35 @@
+<div class="container" novalidate>
+  <div class="form-container">
+    <h3>Post hinzufügen</h3>
+    <form [formGroup]="formGroup">
+
+      <mat-form-field class="form-field" appearance="standard">
+        <mat-label>Post title</mat-label>
+        <input matInput placeholder="Titel" formControlName="inp_title" />
+        <mat-error *ngIf="!inp_title.valid && inp_title.touched">
+          <span *ngIf="inp_title.errors.required">This field is mandatory.</span>
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="form-field" appearance="standard">
+        <mat-label>Post location</mat-label>
+        <input matInput placeholder="Location" formControlName="inp_location" />
+        <mat-error *ngIf="!inp_location.valid && inp_location.touched">
+          <span *ngIf="inp_location.errors.required">This field is mandatory.</span>
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="form-field inputbreit" appearance="standard">
+        <!-- Readonly Input to show File names -->
+        <input matInput readonly id="file_name" placeholder="Browse image file" />
+
+        <!-- Fetch selected filed on change -->
+        <input type="file" id="fileUpload" (change)="uploadFileEvt($event)" formControlName="inp_image" multiple="multiple" accept="image/*" />
+      </mat-form-field>
+
+    </form>
+    <button mat-stroked-button (click)="onSubmit()" color="default" class="button" [disabled]="!formGroup.valid">
+      Add post
+    </button>
+  </div>
+</div>
