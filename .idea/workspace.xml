@@ -4,82 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b2e94a-acdb-4527-866c-44d4bf2cdf92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IKT-PWA-01/public/src/images/htw-gebaeude-h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IKT-PWA-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db.connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db.sqlqueries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/posts.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/backend.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/backend.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/create/create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/create/create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/create/create.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/create/create.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-01/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/src/css/feed.css" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-01/public/src/css/feed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-01/public/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/src/js/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-01/public/src/js/feed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-01/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/android-icon-192x192-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/android-icon-192x192-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-114x114-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-114x114-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-120x120-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-120x120-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-144x144-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-144x144-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-152x152-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-152x152-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-180x180-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-180x180-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-512x512-dunlap-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-512x512-dunlap-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-57x57-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-57x57-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-60x60-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-60x60-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-72x72-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-72x72-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-76x76-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/apple-icon-76x76-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-16x16-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-16x16-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-32x32-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-32x32-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-96x96-dunplab-manifest-43123.png" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/images/icons/favicon-96x96-dunplab-manifest-43123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung3/public/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/uebung3/public/src/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="f1b2e94a-acdb-4527-866c-44d4bf2cdf92" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +117,7 @@
       <workItem from="1622975882168" duration="67000" />
       <workItem from="1622975997682" duration="951000" />
       <workItem from="1622993245008" duration="2216000" />
-      <workItem from="1622998060236" duration="3951000" />
+      <workItem from="1622998060236" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="Übung 1: Grundgerüst">
       <created>1619641422042</created>
@@ -222,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621074892085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Übung 4 + Übung 5: Frontend Backend Anbindung">
+      <created>1623005628871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623005628871</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Übung 4 + Übung 5: Frontend Backend Anbindung">
+      <created>1623005965708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623005965708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +172,7 @@
     <MESSAGE value="Übung 1: Grundgerüst" />
     <MESSAGE value="Übung 2: Manifest" />
     <MESSAGE value="Übung 3: Promises &amp; Fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 3: Promises &amp; Fetch" />
+    <MESSAGE value="Übung 4 + Übung 5: Frontend Backend Anbindung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 4 + Übung 5: Frontend Backend Anbindung" />
   </component>
 </project>
