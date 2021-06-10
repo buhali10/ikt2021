@@ -1,1 +1,15 @@
-<p>read works!</p>
+<div class="container" novalidate>
+  <div *ngFor="let post of allPosts">
+  <mat-card class="polaroid">
+    <mat-card-header>
+      <mat-card-title>{{post.title}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="imageSrc(post.image)"/>
+    <mat-card-content>
+    <p> {{post.location}}</p>
+    </mat-card-content>
+
+  </mat-card>
+
+  </div>
+</div>
