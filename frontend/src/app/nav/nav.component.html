@@ -5,9 +5,8 @@
                [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
+      <a mat-list-item routerLink="/read" routerLinkActive="active">Alle Datensätze</a>
       <a mat-list-item routerLink="/create" routerLinkActive="active">Neuen Datensatz hinzufügen</a>
-      <a mat-list-item routerLink="/read">Alle Datensätze</a>
-
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

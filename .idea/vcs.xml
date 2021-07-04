@@ -3,8 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IKT-PWA-03" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ikt_backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ikt_backend/ikt_backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ikt_frontend" vcs="Git" />
   </component>
 </project>

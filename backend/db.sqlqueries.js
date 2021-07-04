@@ -23,6 +23,7 @@ export const PostService = {
             else result(null, res);
         });
     },
+
     updateById: async(id, post, result) => {
         sql.query(
             "UPDATE posts SET ? where id= ?", [post, id],

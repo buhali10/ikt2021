@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b2e94a-acdb-4527-866c-44d4bf2cdf92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IKT-PWA-03/public/src/js/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IKT-PWA-03/public/src/js/idb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IKT-PWA-03/{" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-01/public/src/images/icons/Webp.net-resizeimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/public/src/css/feed.css" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/public/src/css/feed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/public/src/js/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/public/src/js/feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IKT-PWA-03/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/IKT-PWA-03/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db.sqlqueries.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlqueries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/posts.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/posts.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/backend.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/backend.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/create/create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/create/create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/nav/nav.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/read/read.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/read/read.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/read/read.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/read/read.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/read/read.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/read/read.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/IKT-PWA-03" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -129,6 +143,18 @@
       <workItem from="1623175697857" duration="1071000" />
       <workItem from="1623187193801" duration="312000" />
       <workItem from="1623320277491" duration="4222000" />
+      <workItem from="1623324558013" duration="53000" />
+      <workItem from="1623359756511" duration="1067000" />
+      <workItem from="1623393052487" duration="1589000" />
+      <workItem from="1623517708817" duration="6616000" />
+      <workItem from="1623622875363" duration="949000" />
+      <workItem from="1623742239999" duration="558000" />
+      <workItem from="1623925698658" duration="4041000" />
+      <workItem from="1623943839835" duration="1908000" />
+      <workItem from="1624089920541" duration="1717000" />
+      <workItem from="1624387660342" duration="514000" />
+      <workItem from="1624700646772" duration="285000" />
+      <workItem from="1624701189977" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Übung 1: Grundgerüst">
       <created>1619641422042</created>
@@ -179,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623006103196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Übung 6: Frontend">
+      <created>1623324598513</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623324598513</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,10 +220,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ikt_backend" />
+      <path value="$PROJECT_DIR$/ikt_backend/ikt_backend" />
+      <path value="$PROJECT_DIR$/ikt_frontend" />
+    </ignored-roots>
     <MESSAGE value="Übung 1: Grundgerüst" />
     <MESSAGE value="Übung 2: Manifest" />
     <MESSAGE value="Übung 3: Promises &amp; Fetch" />
     <MESSAGE value="Übung 4 + Übung 5: Frontend Backend Anbindung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 4 + Übung 5: Frontend Backend Anbindung" />
+    <MESSAGE value="Übung 6: Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 6: Frontend" />
   </component>
 </project>
