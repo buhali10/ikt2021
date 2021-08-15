@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "watch": "nodemon ./server.js",
-    "test": "mocha ./tests.js"
+    "test": "mocha ./tests.js",
+    "web-push": "web-push"
   },
   "keywords": [
     "IKT",
@@ -20,7 +21,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "web-push": "^3.4.5"
   },
   "devDependencies": {
     "chai": "^4.3.4",

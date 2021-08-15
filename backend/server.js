@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import { PostController } from './posts.controller.js';
+import { SubscriptionController } from "./sub.controller.js";
 
 const app = express();
 const PORT = 3000;
@@ -18,8 +19,11 @@ app.post("/posts", PostController.create); // C
 app.get("/posts/title", PostController.readOneByTitle); // R (one)
 app.get("/posts", PostController.readAll); // R (all)
 app.get("/posts/:postId", PostController.readOne); // R (one)
+
 app.put("/posts/:postId", PostController.update); // U
 app.delete("/posts/:postId", PostController.delete); // D
+
+app.post("/subscription", SubscriptionController.subscribe);
 
 app.listen(PORT, (error) => {
     if (error) {
