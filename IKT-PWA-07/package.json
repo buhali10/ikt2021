@@ -1,0 +1,29 @@
+{
+    "name": "ikt-pwa-07",
+    "version": "1.0.0",
+    "description": "Vorlage für Camera und Geolocation",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "http-server -c-1"
+    },
+    "keywords": [
+        "pwa",
+        "progressive",
+        "web",
+        "app",
+        "ikt",
+        "htw",
+        "fiw"
+    ],
+    "author": "J. freiheit",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^0.12.3"
+    },
+    "dependencies": {
+        "idb": "^6.1.0",
+        "js-base64": "^3.6.1",
+        "sanitize-html": "^2.4.0"
+    }
+}

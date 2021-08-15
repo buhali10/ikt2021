@@ -1,0 +1,44 @@
+{
+  "name": "HTW-Insta Erweiterung",
+  "short_name": "HTW-Insta",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#76B900",
+  "description": "Eine tolle HTW-Insta-PWA",
+  "lang": "de-DE",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "theme-color": "#76B900",
+  "icons": [
+    {
+        "src": "/src/images/icons/fiw48x48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+    },
+    {
+        "src": "/src/images/icons/fiw72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+    },
+    {
+        "src": "/src/images/icons/fiw96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+    },
+    {
+        "src": "/src/images/icons/fiw128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+    },
+    {
+        "src": "/src/images/icons/fiw256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+    },
+    {
+        "src": "/src/images/icons/fiw484x484.png",
+        "type": "image/png",
+        "sizes": "484x484"
+    }
+  ]
+}
